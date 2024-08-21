@@ -4,7 +4,7 @@ Para calcular si un número es primo es necesario verificar que el número a cal
 no sea divisible por todos los números menores a él. Implemente un algoritmo que
 calcule si un número es primo.
 
-Alexis Hernández Fragoso
+Alexis Hernández Fragoso.
 */
 
 // Importar la clase para poder leer de teclado
@@ -43,3 +43,11 @@ Alexis Hernández Fragoso
         }
     }
  }
+
+/*
+Nota: Si el número se puede divir más de dos veces entre los números anteriores a este, es decir,
+los números inferiores a él y entre él mismo, no es un número primo.
+
+Pero si el número solamente se puede dividir dos veces entre los números inferiores a él y entre sí mismo,
+es decir, es un número primo.
+*/
